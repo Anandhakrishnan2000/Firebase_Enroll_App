@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "662138741549",
+    "project_id": "introtuce-demo-app",
+    "storage_bucket": "introtuce-demo-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662138741549:android:027ad36ecc0b5050b529a4",
+        "android_client_info": {
+          "package_name": "com.krizz.introtucedemoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662138741549-qu5uc0i938q9oaphegvn726tn4i7e0er.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO3mSV2REcz1ziLd4Ib7A9r2vp9u6apwo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662138741549-qu5uc0i938q9oaphegvn726tn4i7e0er.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

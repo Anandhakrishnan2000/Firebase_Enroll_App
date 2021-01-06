@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/adduserBtn">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <ImageView
+            android:id="@+id/profilepicImgV"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_baseline_image_24"
+            android:scaleType="centerCrop"
+            android:background="@color/gray"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Profile Photo"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/theme"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/et_firstname"
+            android:hint="First Name"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext_border_round_corner"
+            android:paddingLeft="20dp"/>
+        <EditText
+            android:id="@+id/et_lastname"
+            android:hint="Last Name"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext_border_round_corner"
+            android:paddingLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/et_age"
+            android:hint="Age"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="15dp"
+            android:inputType="number"
+            android:background="@drawable/edittext_border_round_corner"
+            android:paddingLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/et_gender"
+            android:hint="Gender"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext_border_round_corner"
+            android:paddingLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/et_country"
+            android:hint="Country"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext_border_round_corner"
+            android:paddingLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/et_state"
+            android:hint="State"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext_border_round_corner"
+            android:paddingLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/et_town"
+            android:hint="Home Town"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext_border_round_corner"
+            android:paddingLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/et_phoneNumber"
+            android:hint="Phone Number"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="15dp"
+            android:inputType="phone"
+            android:background="@drawable/edittext_border_round_corner"
+            android:paddingLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/et_telNumber"
+            android:hint="Telephone Number"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:inputType="phone"
+            android:background="@drawable/edittext_border_round_corner"
+            android:paddingLeft="20dp"/>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/adduserBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/theme"
+        android:layout_alignParentBottom="true"
+        android:text="ADD USER"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
